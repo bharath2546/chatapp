@@ -7,7 +7,34 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.chat {
+  display: flex;
+}
+
+.message {
+  font-size: 35px;
+}
+
+.user {
+  font-size: 15px;
+  color: antiquewhite;
+  margin-top: 25px;
+  padding: 25px;
+}
+
+
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+input {
+  font-size: 25px;
+}
+
+button {
+  margin-left: 10px;
+  font-size: 25px;
 }
